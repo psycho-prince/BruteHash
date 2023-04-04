@@ -4,3 +4,4 @@
 REQUIREMENTS : GIT 
                PYTHON
                HASHLIB
+wordlist : rockyou.txt
