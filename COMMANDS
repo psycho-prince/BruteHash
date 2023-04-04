@@ -1,0 +1,9 @@
+
+
+git clone https://github.com/psycho-prince/psyhash-cracker.git
+
+cd psyhash-cracker
+
+python3 psyhashcracker0.py
+
+select the hash u want to crack 
