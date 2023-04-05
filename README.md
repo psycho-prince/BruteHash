@@ -7,9 +7,12 @@
 
 
 
-# REQUIREMENTS : GIT ☣️
-               PYTHON☣️
-               HASHLIB☣️
+# REQUIREMENTS
+
+
+GIT ☣️
+      PYTHON☣️
+              HASHLIB☣️
 
 
 wordlist : rockyou.txt🆓
