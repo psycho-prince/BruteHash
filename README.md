@@ -17,6 +17,6 @@ GIT ☣️
 
 wordlist : rockyou.txt🆓
 
-check out COMMANDS for more information 
+#  check out COMMANDS for more information 
 
  
