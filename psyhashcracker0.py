@@ -10,12 +10,31 @@ def main():
             hash_to_crack = input("Enter the hash to crack: ")
             wordlist_path = input("Enter the path to the wordlist: ")
             encoding = input("Enter the character encoding of the wordlist (press Enter for default UTF-8): ") or "utf-8"
+            
+            print("Supported hash formats:")
+            print("1. md5\n2. sha1\n3. sha224\n4. sha256\n5. sha384\n6. sha512")
+            hash_format = input("Enter the number of the hash format to use: ")
 
             try:
                 with open(wordlist_path, "r", encoding=encoding) as f:
                     for word in f:
                         word = word.strip()
-                        hashed_word = hashlib.md5(word.encode(encoding)).hexdigest()
+                        if hash_format == "1":
+                            hashed_word = hashlib.md5(word.encode(encoding)).hexdigest()
+                        elif hash_format == "2":
+                            hashed_word = hashlib.sha1(word.encode(encoding)).hexdigest()
+                        elif hash_format == "3":
+                            hashed_word = hashlib.sha224(word.encode(encoding)).hexdigest()
+                        elif hash_format == "4":
+                            hashed_word = hashlib.sha256(word.encode(encoding)).hexdigest()
+                        elif hash_format == "5":
+                            hashed_word = hashlib.sha384(word.encode(encoding)).hexdigest()
+                        elif hash_format == "6":
+                            hashed_word = hashlib.sha512(word.encode(encoding)).hexdigest()
+                        else:
+                            print("Invalid hash format.")
+                            break
+                        
                         if hashed_word == hash_to_crack:
                             print(f"Hash cracked: {word}")
                             break
@@ -43,3 +62,4 @@ def print_ascii_cat(tool_name):
 
 if __name__ == "__main__":
     main()
+
