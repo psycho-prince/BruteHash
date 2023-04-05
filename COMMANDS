@@ -1,8 +1,8 @@
-git clone https://github.com/psycho-prince/denji-hasher.git
+git clone https://github.com/Hashes-cracker/denji-hasher.git
 
 cd psyhash-cracker
 
-python3 psyhashcracker0.py
+python3 denji.py
 
 select the hash u want to crack
 
