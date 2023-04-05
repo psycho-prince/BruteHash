@@ -1,4 +1,4 @@
-# hash-cracked
+# hash-cracker
 
 ![IMG_20230104_202352_214](https://user-images.githubusercontent.com/65974917/229999544-736425ca-e605-4ec6-b436-80237617e8ce.jpg)
 
