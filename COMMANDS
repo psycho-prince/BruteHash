@@ -4,4 +4,8 @@ cd psyhash-cracker
 
 python3 psyhashcracker0.py
 
-select the hash u want to crack 
+select the hash u want to crack
+
+
+password of wordlist file : psycho
+
