@@ -9,3 +9,5 @@ REQUIREMENTS : GIT ☣️
                PYTHON☣️
                HASHLIB☣️
 wordlist : rockyou.txt🆓
+
+#check out #COMMANDS for more information 
