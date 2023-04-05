@@ -1,4 +1,6 @@
-# ⛔️ HASH CRACKER ⛔️
+# ⛔️ Kraken
+
+HASH CRACKER ⛔️
 
 
 ![Picsart_23-04-05_16-14-14-676](https://user-images.githubusercontent.com/65974917/230058660-1ce925de-01c5-49c4-a718-9ad80e73d254.jpg)
